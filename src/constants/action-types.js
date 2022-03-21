@@ -1,0 +1,5 @@
+export const SET_INITIAL = "SET_INITIAL";
+export const SET_ORIGIN_INPUT = "SET_ORIGIN_INPUT";
+export const SET_DEST_INPUT = "SET_DEST_INPUT";
+export const SET_DEPT_INPUT = "SET_DEPT_INPUT";
+export const SEARCH_FLIGHT = "SEARCH_FLIGHT";

@@ -1,0 +1,70 @@
+.container {
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: 24%;
+  position: relative;
+}
+
+.label {
+  color: #808080;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+}
+
+.input {
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  font-size: 16px;
+  padding: 20px 15px 4px 32px;
+  width: -webkit-fill-available;
+  height: 34px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #fed538;
+}
+
+.icon {
+  position: absolute;
+  margin: 28px 10px 0px 10px;
+}
+
+.icon > img {
+  height: 14px;
+}
+
+.list-container {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(60,64,67, 0.3), 0 4px 8px 3px rgba(60,64,67, 0.15);
+  max-height: 200px;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.list-item {
+  padding: 10px 15px;
+  border-bottom: .5px solid #e5e5e5;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%
+  }
+}

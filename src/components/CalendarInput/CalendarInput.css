@@ -1,0 +1,17 @@
+.container {
+  margin-right: 5px;
+  width: 24%;
+}
+
+.label {
+  color: #808080;
+}
+
+.calendar-container {
+  position: absolute;
+  z-index: 1000;
+}
+
+.hide {
+  display: none;
+}

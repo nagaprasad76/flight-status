@@ -1,0 +1,116 @@
+{
+  "results": {
+    "ALG": {
+      "iataCode": "ALG",
+      "showAsOrigin": true,
+      "sellingPOS": "",
+      "stationType": "0",
+      "isInterlineOperated": false,
+      "isGBE": false,
+      "isOFW": false,
+      "isEK": "Yes",
+      "geoCoordinates": {
+        "latitude": 36.69,
+        "longitude": 3.21
+      },
+      "shortName": "Algiers",
+      "longName": "Houari Boumediene Airport",
+      "nearbyAirports": [
+        
+      ],
+      "region": {
+        "shortName": "Africa",
+        "longName": "Africa",
+        "code": "AFRI"
+      },
+      "country": {
+        "a3code": "DZA",
+        "code": "DZ",
+        "shortName": "Algeria",
+        "longName": "Algeria",
+        "otherRegion": {
+          "shortName": "Africa",
+          "longName": "Africa"
+        }
+      },
+      "city": {
+        "code": "ALG",
+        "shortName": "Algiers",
+        "longName": "Algiers"
+      }
+    },
+    "LAD": {
+      "iataCode": "LAD",
+      "showAsOrigin": true,
+      "sellingPOS": "",
+      "stationType": "0",
+      "isInterlineOperated": false,
+      "isGBE": false,
+      "isOFW": false,
+      "isEK": "Yes",
+      "geoCoordinates": {
+        "latitude": -8.86,
+        "longitude": 13.23
+      },
+      "shortName": "Luanda",
+      "longName": "4 de Fevereiro Airport",
+      "nearbyAirports": [
+        
+      ],
+      "region": {
+        "shortName": "Africa",
+        "longName": "Africa",
+        "code": "AFRI"
+      },
+      "country": {
+        "a3code": "AGO",
+        "code": "AO",
+        "shortName": "Angola",
+        "longName": "Angola",
+        "otherRegion": {
+          "shortName": "Africa",
+          "longName": "Africa"
+        }
+      },
+      "city": {
+        "code": "LAD",
+        "shortName": "Luanda",
+        "longName": "Luanda"
+      }
+    },
+    "BBK": {
+      "iataCode": "BBK",
+      "showAsOrigin": true,
+      "sellingPOS": "",
+      "stationType": "0",
+      "isInterlineOperated": true,
+      "isGBE": false,
+      "isOFW": false,
+      "geoCoordinates": {
+        "latitude": -17.83,
+        "longitude": 25.16
+      },
+      "shortName": "Kasane",
+      "longName": "Kasane Airport",
+      "nearbyAirports": [
+        
+      ],
+      "region": {
+        "shortName": "Africa",
+        "longName": "Africa",
+        "code": "AFRI"
+      },
+      "country": {
+        "a3code": "BWA",
+        "code": "BW",
+        "shortName": "Botswana",
+        "longName": "Botswana"
+      },
+      "city": {
+        "code": "BBK",
+        "shortName": "Kasane",
+        "longName": "Kasane"
+      }
+    }
+}
+}

@@ -1,0 +1,193 @@
+.flight-card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(60,64,67, 0.3), 0 4px 8px 3px rgba(60,64,67, 0.15);
+  margin: 10px auto;
+  padding: 8px 16px 48px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  width: 70%;
+  font-family: Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  color: #333;
+}
+.flight-line {
+  background: linear-gradient(180deg, 
+        rgba(0,0,0,0) calc(50% - 1px), 
+        rgb(2, 128, 54) calc(50%), 
+        rgba(0,0,0,0) calc(50% + 1px)
+    );
+    width: 50%;
+}
+.flight-line span{
+  color: rgb(2, 128, 54);
+  font-size: 38px;
+  position: relative;
+  left: -4px;
+  top: 0px;
+}
+.flight-line-arrrived {
+  background-image: url(../../static/flight-arr.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 75%;
+}
+
+.flight-line-not-arrrived {
+  /* background-color: rgb(83, 71, 197); */
+}
+
+.book-button {
+  float: right;
+}
+
+.detail-container {
+  display: flex;
+  margin-top: 40px;
+}
+
+.id {
+  padding: 5px 15px;
+}
+
+.inner {
+  padding: 5px 25px;
+}
+
+.time {
+  padding-bottom: 5px;
+}
+
+.duration {
+  font-size: 22px;
+}
+
+.city {
+  color: #3c4043
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+@media (max-width: 767px) {
+  .price {
+    float: none;
+    margin-bottom: 5px;
+  }
+  .id {
+    padding: 5px;
+  }
+  .inner {
+    padding: 5px;
+  }
+}
+
+/* 
+.container {
+  font-size: 0;
+} */
+
+.section {
+  font-size: 16px; /*reset font size*/
+  display: inline-block;
+  vertical-align: top;
+  width: 33.3333%;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) { /*breakpoint*/
+  .section {
+    display: block;
+    width: auto;
+  }
+}
+
+.flight-time-details{
+  /* display: inline-block; */
+  display: flex;
+  flex-flow: column nowrap;
+  /* vertical-align: top; */
+  width: 90%;
+  border-right: 1px dashed #adaaaa;
+  padding-right: 30px;
+}
+.flight-departure{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.flight-dest-label {
+  font-size: 0.8rem;
+  color: #333;
+  padding: 15px 0px 4px 0px;
+}
+.flight-path{
+  display: inline-block;
+  width: 50%;
+}
+.flight-arrival{
+  display: inline-block;
+  width: 25%;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.flight-time{
+  font-weight: 400;
+  font-size: 2.1rem;
+  color: #3c4043;
+  background-color: #fff;
+}
+
+.flight-number{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 20%;
+  height: 140px;
+}
+
+.flight-tail {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+.flight-code {
+  width: 100%;
+  text-align: center;
+}
+.flight-tail img {
+  height: 30px;
+}
+.flight-status-banner {
+  position: relative;
+  top: -120px;
+  left: 28px;
+  box-shadow: 0 1px 3px rgba(60,64,67, 0.3), 0 4px 8px 3px rgba(60,64,67, 0.15);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.status-arrived {
+  background-color: rgb(5, 85, 68);
+}
+
+.status-notarrived {
+  background-color: rgb(31, 47, 189);
+}
+
+.status-others {
+  background-color: #FFBF00;
+}

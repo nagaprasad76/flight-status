@@ -1,0 +1,18 @@
+.button {
+  background-color: #dc3545;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 20px 15px 0px 15px;
+  width: max-content;
+  text-align: center;
+  height: 40px;
+  width: 20%;
+}
+
+@media (max-width: 767px) {
+  .button {
+    width: 90%;
+  }
+}
+ 
